@@ -1,219 +1,101 @@
 cv:
   name: Mmesoma Udensi
-  location: Location
-  email: john.doe@example.com
-  phone: +1-609-999-9995
+  location: Urbana, IL
+  email: mudensi2@illinois.edu
+  phone: +1-214-813-4470
   website:
   social_networks:
     - network: LinkedIn
-      username: john.doe
+      username: mmesomaudensi
     - network: GitHub
-      username: john.doe
+      username: udensidev
   sections:
-    welcome_to_RenderCV!:
-      - '[RenderCV](https://rendercv.com) is a Typst-based CV framework designed for academics and engineers, with Markdown syntax support.'
-      - Each section title is arbitrary. Each section contains a list of entries, and there are 7 different entry types to choose from.
     education:
-      - institution: Stanford University
-        area: Computer Science
-        degree: PhD
-        date:
-        start_date: 2023-09
-        end_date: present
-        location: Stanford, CA, USA
+      - institution: University of Illinois at Urbana-Champaign
+        area: Business Analytics
+        degree: M.Sc.
+        date: 2025-05
+        start_date:
+        end_date: 
+        location: Champaign, IL
         summary:
         highlights:
-          - Working on the optimization of autonomous vehicles in urban environments
-      - institution: Boğaziçi University
-        area: Computer Engineering
-        degree: BS
-        date:
-        start_date: 2018-09
-        end_date: 2022-06
-        location: Istanbul, Türkiye
+          - 'GPA: 4.0/4.0'
+          - 'Coursework: Big Data Analytics, Enterprise Database Management, Financial Risk Management'
+          - 'Activities: Illinois Business Consulting (IBC), Financial Engineering Club'
+      - institution: University of Lagos
+        area: Electrical and Electronics Engineering
+        degree: B.Sc.
+        date: 2023-10
+        start_date:
+        end_date: 
+        location: Lagos, Nigeria
         summary:
         highlights:
-          - 'GPA: 3.9/4.0, ranked 1st out of 100 students'
-          - 'Awards: Best Senior Project, High Honor'
+          - 'GPA: 4.38/5.0, ranked top 5% in class'
     experience:
-      - company: Company C
-        position: Summer Intern
+      - company: Credential Engine (Capstone Project) 
+        position: Data Engineer Intern (Lead)
         date:
         start_date: 2024-06
-        end_date: 2024-09
-        location: Livingston, LA, USA
-        summary:
-        highlights:
-          - Developed deep learning models for the detection of gravitational waves in LIGO data
-          - Published [3 peer-reviewed research papers](https://example.com) about the project and results
-      - company: Company B
-        position: Summer Intern
-        date:
-        start_date: 2023-06
-        end_date: 2023-09
-        location: Ankara, Türkiye
-        summary:
-        highlights:
-          - Optimized the production line by 15% by implementing a new scheduling algorithm
-      - company: Company A
-        position: Summer Intern
-        date:
-        start_date: 2022-06
-        end_date: 2022-09
-        location: Istanbul, Türkiye
-        summary:
-        highlights:
-          - Designed an inventory management web application for a warehouse
-    projects:
-      - name: '[Example Project](https://example.com)'
-        date:
-        start_date: 2024-05
         end_date: present
-        location:
-        summary: A web application for writing essays
+        location: Washington, DC
+        summary:
         highlights:
-          - Launched an [iOS app](https://example.com) in 09/2024 that currently has 10k+ monthly active users
-          - The app is made open-source (3,000+ stars [on GitHub](https://github.com))
-      - name: '[Teaching on Udemy](https://example.com)'
-        date: Fall 2023
+          - Developed a data pipeline using Python and Gemini API to ingest and process 50+ support service credentials from 5+ universities
+          - Implemented a RESTful API to serve the data to the Credential Engine registry
+          - Deployed a web application to visualize the data using Flask
+      - company: JUMO
+        position: Market Research Consultant
+        date:
+        start_date: 2023-11
+        end_date: 2023-12
+        location: Cape Town, South Africa
+        summary:
+        highlights:
+          - Conducted market research on the financial behavior of 100+ small businesses using surveys and interviews
+          - Researched the competitive landscape of the consumer lending industry in Nigeria covering 60+ companies
+          - Recommended strategies to improve regional positioning based on the research findings
+      - company: Babban Gona
+        position: Machine Learning Engineer Intern
+        date:
+        start_date: 2019-11
+        end_date: 2020-10
+        location: Lagos, Nigeria
+        summary:
+        highlights:
+          - Contributed to the development of a computer vision model to predict crop health 
+          - Increased the accuracy of the model by 10% by annotating 10,000+ images
+    projects:
+      - name: '[Property Valuation Model](https://github.com/udensidev/property-valuation-model.git)'
+        date: 2024-11
+        start_date: 
+        end_date: 
+        location:
+        summary: A predictive model that estimates the value of residential properties in Cook County, IL
+        highlights:
+          - Wrangled and cleaned 50,000+ real estate listings in historical sales data using R
+          - Engineered 20+ features to train a random forest regression models with an R^2 score of ~0.84
+      - name: '[Yelp Restaurant Business Intelligence](https://example.com)'
+        date: 2024-10
         start_date:
         end_date:
         location:
-        summary:
+        summary: An ETL pipeline that extracts, transforms, and loads Yelp restaurant data into a Microsoft SQL Server database
         highlights:
-          - Instructed the "Statics" course on Udemy (60,000+ students, 200,000+ hours watched)
+          - Extracted 1M+ restaurant reviews and ratings using the Yelp API
+          - Transformed the data into a star schema to analyze and provide insights for opening a new restaurant
     skills:
       - label: Programming
-        details: Proficient with Python, C++, and Git; good understanding of Web, app development, and DevOps
-      - label: Mathematics
-        details: Good understanding of differential equations, calculus, and linear algebra
-      - label: Languages
-        details: 'English (fluent, TOEFL: 118/120), Turkish (native)'
-    publications:
-      - title: 3D Finite Element Analysis of No-Insulation Coils
-        authors:
-          - Frodo Baggins
-          - '***Mmesoma Udensi***'
-          - Samwise Gamgee
-        doi: 10.1109/TASC.2023.3340648
-        url:
-        journal:
-        date: 2004-01
-    extracurricular_activities:
-      - bullet: 'There are 7 unique entry types in RenderCV: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.'
-      - bullet: Each entry type has a different structure and layout. This document demonstrates all of them.
-    numbered_entries:
-      - number: This is a numbered entry.
-      - number: This is another numbered entry.
-      - number: This is the third numbered entry.
-    reversed_numbered_entries:
-      - reversed_number: This is a reversed numbered entry.
-      - reversed_number: This is another reversed numbered entry.
-      - reversed_number: This is the third reversed numbered entry.
+        details: Proficient with Python, R, SQL, SAS, Bash and Git; good understanding of cloud computing
+      - label: Data Analysis
+        details: Experience with data visualization, machine learning, and statistical analysis
+      - label: Tools  
+        details: 'AWS, Knime, MongoDB, Postman, RStudio, Tableau, Visual Studio Code, Wolfram Mathematica'
+      - label: Certifications
+        details: 'Google Data Analytics, AWS Certified Cloud Practitioner, AWS Data Engineer - Associate'
 design:
-  theme: classic
-  page:
-    size: us-letter
-    top_margin: 2cm
-    bottom_margin: 2cm
-    left_margin: 2cm
-    right_margin: 2cm
-    show_page_numbering: true
-    show_last_updated_date: true
-  colors:
-    text: rgb(0, 0, 0)
-    name: rgb(0, 79, 144)
-    connections: rgb(0, 79, 144)
-    section_titles: rgb(0, 79, 144)
-    links: rgb(0, 79, 144)
-    last_updated_date_and_page_numbering: rgb(128, 128, 128)
-  text:
-    font_family: Source Sans 3
-    font_size: 10pt
-    leading: 0.6em
-    alignment: justified
-    date_and_location_column_alignment: right
-  links:
-    underline: false
-    use_external_link_icon: true
-  header:
-    name_font_family: Source Sans 3
-    name_font_size: 30pt
-    name_bold: true
-    photo_width: 3.5cm
-    vertical_space_between_name_and_connections: 0.7cm
-    vertical_space_between_connections_and_first_section: 0.7cm
-    horizontal_space_between_connections: 0.5cm
-    connections_font_family: Source Sans 3
-    separator_between_connections: ''
-    use_icons_for_connections: true
-    alignment: center
-  section_titles:
-    type: with-parial-line
-    font_family: Source Sans 3
-    font_size: 1.4em
-    bold: true
-    small_caps: false
-    line_thickness: 0.5pt
-    vertical_space_above: 0.5cm
-    vertical_space_below: 0.3cm
-  entries:
-    date_and_location_width: 4.15cm
-    left_and_right_margin: 0.2cm
-    horizontal_space_between_columns: 0.1cm
-    vertical_space_between_entries: 1.2em
-    allow_page_break_in_sections: true
-    allow_page_break_in_entries: true
-    short_second_row: false
-    show_time_spans_in: []
-  highlights:
-    bullet: •
-    top_margin: 0.25cm
-    left_margin: 0.4cm
-    vertical_space_between_highlights: 0.25cm
-    horizontal_space_between_bullet_and_highlight: 0.5em
-    summary_left_margin: 0cm
-  entry_types:
-    one_line_entry:
-      template: '**LABEL:** DETAILS'
-    education_entry:
-      main_column_first_row_template: '**INSTITUTION**, AREA'
-      degree_column_template: '**DEGREE**'
-      degree_column_width: 1cm
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: |-
-        LOCATION
-        DATE
-    normal_entry:
-      main_column_first_row_template: '**NAME**'
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: |-
-        LOCATION
-        DATE
-    experience_entry:
-      main_column_first_row_template: '**COMPANY**, POSITION'
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: |-
-        LOCATION
-        DATE
-    publication_entry:
-      main_column_first_row_template: '**TITLE**'
-      main_column_second_row_template: |-
-        AUTHORS
-        URL (JOURNAL)
-      main_column_second_row_without_journal_template: |-
-        AUTHORS
-        URL
-      main_column_second_row_without_url_template: |-
-        AUTHORS
-        JOURNAL
-      date_and_location_column_template: DATE
+  theme: sb2nov
 locale:
   language: en
   phone_number_format: national
@@ -255,4 +137,12 @@ locale:
 rendercv_settings:
   date: '2025-03-12'
   render_command:
+    output_folder_name: rendercv_output
+    pdf_path: Mmesoma_Udensi_CV.pdf 
+    typst_path: mmesoma_udensi_cv.typ
+    html_path: Mmesoma-Udensi_CV.html
+    markdown_path: Mmesoma-Udensi.md
+    dont_generate_html: false 
+    dont_generate_markdown: false 
+    dont_generate_png: false
   bold_keywords: []
