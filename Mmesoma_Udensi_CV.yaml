@@ -37,7 +37,7 @@ cv:
       - company: Credential Engine (Capstone Project) 
         position: Data Engineer Intern (Lead)
         date:
-        start_date: 2024-06
+        start_date: 2024-09
         end_date: present
         location: Washington, DC
         summary:
@@ -91,7 +91,7 @@ cv:
       - label: Data Analysis
         details: Experience with data visualization, machine learning, and statistical analysis
       - label: Tools  
-        details: 'AWS, Knime, MongoDB, Postman, RStudio, Tableau, Visual Studio Code, Wolfram Mathematica'
+        details: 'AWS Athena, AWS Glue, AWS RDS, Knime, MongoDB, Postman, RStudio, Tableau, Visual Studio Code'
       - label: Certifications
         details: 'Google Data Analytics, AWS Certified Cloud Practitioner, AWS Data Engineer - Associate'
 design:

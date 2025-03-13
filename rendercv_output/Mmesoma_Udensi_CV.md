@@ -27,7 +27,7 @@
 
 ## Credential Engine (Capstone Project), Data Engineer Intern (Lead)
 
-- June 2024 – present
+- Sept 2024 – present
 - Washington, DC
 - Developed a data pipeline using Python and Gemini API to ingest and process 50+ support service credentials from 5+ universities
 - Implemented a RESTful API to serve the data to the Credential Engine registry
@@ -66,5 +66,5 @@
 
 - Programming: Proficient with Python, R, SQL, SAS, Bash and Git; good understanding of cloud computing
 - Data Analysis: Experience with data visualization, machine learning, and statistical analysis
-- Tools: AWS, Knime, MongoDB, Postman, RStudio, Tableau, Visual Studio Code, Wolfram Mathematica
+- Tools: AWS Athena, AWS Glue, AWS RDS, Knime, MongoDB, Postman, RStudio, Tableau, Visual Studio Code
 - Certifications: Google Data Analytics, AWS Certified Cloud Practitioner, AWS Data Engineer - Associate

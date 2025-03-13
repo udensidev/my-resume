@@ -527,7 +527,7 @@
   right-content: [
     #emph[Washington, DC]
 
-#emph[June 2024 – present]
+#emph[Sept 2024 – present]
   ],
 )
 #one-col-entry(
@@ -626,7 +626,7 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Tools:] AWS, Knime, MongoDB, Postman, RStudio, Tableau, Visual Studio Code, Wolfram Mathematica]
+  content: [#strong[Tools:] AWS Athena, AWS Glue, AWS RDS, Knime, MongoDB, Postman, RStudio, Tableau, Visual Studio Code]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
