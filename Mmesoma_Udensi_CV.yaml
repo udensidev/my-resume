@@ -75,7 +75,7 @@ cv:
         summary: A predictive model that estimates the value of residential properties in Cook County, IL
         highlights:
           - Wrangled and cleaned 50,000+ real estate listings in historical sales data using R
-          - Engineered 20+ features to train a random forest regression models with an R^2 score of ~0.84
+          - Engineered 20+ features to train a random forest regression model with an R^2 score of ~0.84
       - name: '[Yelp Restaurant Business Intelligence](https://example.com)'
         date: 2024-10
         start_date:

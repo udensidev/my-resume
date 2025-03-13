@@ -591,7 +591,7 @@
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [A predictive model that estimates the value of residential properties in Cook County, IL])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Wrangled and cleaned 50,000+ real estate listings in historical sales data using R],[Engineered 20+ features to train a random forest regression models with an R^2 score of \~0.84],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Wrangled and cleaned 50,000+ real estate listings in historical sales data using R],[Engineered 20+ features to train a random forest regression model with an R^2 score of \~0.84],)
   ],
 )
 

@@ -54,7 +54,7 @@
 
 - Nov 2024
 - Wrangled and cleaned 50,000+ real estate listings in historical sales data using R
-- Engineered 20+ features to train a random forest regression models with an R^2 score of ~0.84
+- Engineered 20+ features to train a random forest regression model with an R^2 score of ~0.84
 
 ## [Yelp Restaurant Business Intelligence](https://example.com)
 
