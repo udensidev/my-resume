@@ -606,9 +606,9 @@
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [An ETL pipeline that extracts, transforms, and loads Yelp restaurant data into a Microsoft SQL Server database])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [An ETL pipeline that extracts, transforms, and loads Yelp restaurant data into a Microsoft Azure SQL database])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Extracted 1M+ restaurant reviews and ratings using the Yelp API],[Transformed the data into a star schema to analyze and provide insights for opening a new restaurant],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Extracted 6M+ restaurant reviews and ratings from Kaggle's public Yelp dataset],[Transformed the data into a star schema to analyze and provide insights for opening a new restaurant],)
   ],
 )
 

@@ -59,7 +59,7 @@
 ## [Yelp Restaurant Business Intelligence](https://example.com)
 
 - Oct 2024
-- Extracted 1M+ restaurant reviews and ratings using the Yelp API
+- Extracted 6M+ restaurant reviews and ratings from Kaggle's public Yelp dataset
 - Transformed the data into a star schema to analyze and provide insights for opening a new restaurant
 
 # Skills
