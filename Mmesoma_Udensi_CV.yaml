@@ -81,9 +81,9 @@ cv:
         start_date:
         end_date:
         location:
-        summary: An ETL pipeline that extracts, transforms, and loads Yelp restaurant data into a Microsoft SQL Server database
+        summary: An ETL pipeline that extracts, transforms, and loads Yelp restaurant data into a Microsoft Azure SQL database
         highlights:
-          - Extracted 1M+ restaurant reviews and ratings using the Yelp API
+          - Extracted 6M+ restaurant reviews and ratings from Kaggle's public Yelp dataset
           - Transformed the data into a star schema to analyze and provide insights for opening a new restaurant
     skills:
       - label: Programming
