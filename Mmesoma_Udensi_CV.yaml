@@ -10,6 +10,8 @@ cv:
     - network: GitHub
       username: udensidev
   sections:
+    professional summary:
+      - 'Data Engineer with a solid foundation in analytics and machine learning. Experienced in building ETL pipelines, data models, and conducting statistical analysis. Proficient in Python, R, SQL, and cloud platforms. Strong communicator skilled at translating complex technical concepts into actionable business insights.'
     education:
       - institution: University of Illinois at Urbana-Champaign
         area: Business Analytics
@@ -21,8 +23,7 @@ cv:
         summary:
         highlights:
           - 'GPA: 4.0/4.0'
-          - 'Coursework: Big Data Analytics, Enterprise Database Management, Financial Risk Management'
-          - 'Activities: Illinois Business Consulting (IBC), Financial Engineering Club'
+          - 'Coursework: Big Data Analytics, Enterprise Database Management, Big Data Infrastructure, Financial Risk Management'
       - institution: University of Lagos
         area: Electrical and Electronics Engineering
         degree: B.Sc.
@@ -32,7 +33,7 @@ cv:
         location: Lagos, Nigeria
         summary:
         highlights:
-          - 'GPA: 4.38/5.0, ranked top 5% in class'
+          - 'GPA: 4.38/5.0, ranked top 5% of class'
     experience:
       - company: Credential Engine (Capstone Project) 
         position: Data Engineer Intern (Lead)
@@ -42,20 +43,23 @@ cv:
         location: Washington, DC
         summary:
         highlights:
-          - Developed a data pipeline using Python and Gemini API to ingest and process 50+ support service credentials from 5+ universities
-          - Implemented a RESTful API to serve the data to the Credential Engine registry
-          - Deployed a web application to visualize the data using Flask
-      - company: JUMO
-        position: Market Research Consultant
+          - Led the design and implementation of a web-based ETL pipeline to extract, transform, and structure university support service data into CTDL-compliant JSON-LD and downloadable Excel formats
+          - Engineered data extraction logic to scrape and parse unstructured web content from .edu domains, automating the mapping of over 60 unique services (e.g., academic advising, disability support) into a standardized schema
+          - Defined and validated JSON-LD outputs against Credential Engine's CTDL ontology, ensuring schema integrity across datasets
+          - Developed a user-facing form interface and backend logic for scalable data ingestion; enabled non-technical users to generate structured outputs without coding
+          - Authored detailed technical documentation and a user guide, reducing onboarding time for future developers and institutional partners
+      - company: Illinois Business Consulting (IBC)
+        position: Strategy Consultant
         date:
-        start_date: 2023-11
-        end_date: 2023-12
-        location: Cape Town, South Africa
+        start_date: 2024-09
+        end_date: present
+        location: Champaign, IL
         summary:
         highlights:
-          - Conducted market research on the financial behavior of 100+ small businesses using surveys and interviews
-          - Researched the competitive landscape of the consumer lending industry in Nigeria covering 60+ companies
-          - Recommended strategies to improve regional positioning based on the research findings
+          - Researched and analyzed the impact of emerging AI-driven energy demand trends on grid operations and planning, supporting strategic recommendations for a top consulting firm
+          - Synthesized technical insights on grid interconnection processes, regulatory changes, and infrastructure capacity into business-ready deliverables for both technical and non-technical stakeholders
+          - Designed an expert interview guide with over 15 targeted questions, gathering qualitative insights from professionals across the utility, energy policy, and data center ecosystems
+          - Developed a client-facing presentation deck that distilled over 20 hours of expert interviews and secondary research into executive-ready findings
       - company: Babban Gona
         position: Machine Learning Engineer Intern
         date:
@@ -65,7 +69,7 @@ cv:
         summary:
         highlights:
           - Contributed to the development of a computer vision model to predict crop health 
-          - Increased the accuracy of the model by 10% by annotating 10,000+ images
+          - Annotated a dataset of 10,000+ images to improve the robustness of training data, increasing model accuracy by 10%
     projects:
       - name: '[Property Valuation Model](https://github.com/udensidev/property-valuation-model.git)'
         date: 2024-11
@@ -76,7 +80,7 @@ cv:
         highlights:
           - Wrangled and cleaned 50,000+ real estate listings in historical sales data using R
           - Engineered 20+ features to train a random forest regression model with an R^2 score of ~0.84
-      - name: '[Yelp Restaurant Business Intelligence](https://example.com)'
+      - name: '[Yelp Restaurant Business Intelligence](https://github.com/udensidev)'
         date: 2024-10
         start_date:
         end_date:
@@ -86,16 +90,33 @@ cv:
           - Extracted 6M+ restaurant reviews and ratings from Kaggle's public Yelp dataset
           - Transformed the data into a star schema to analyze and provide insights for opening a new restaurant
     skills:
-      - label: Programming
-        details: Proficient with Python, R, SQL, SAS, Bash and Git; good understanding of cloud computing
-      - label: Data Analysis
-        details: Experience with data visualization, machine learning, and statistical analysis
-      - label: Tools  
-        details: 'AWS Athena, AWS Glue, AWS RDS, Knime, MongoDB, Postman, RStudio, Tableau, Visual Studio Code'
+      - label: Tech Stack
+        details: AWS, Bash, Git, Knime, MongoDB, Postman, Python, R, SQL, SAS, Tableau
       - label: Certifications
-        details: 'Google Data Analytics, AWS Certified Cloud Practitioner, AWS Data Engineer - Associate'
+        details: 'Google Data Analytics Professional Certificate, AWS Certified Cloud Practitioner'
 design:
   theme: sb2nov
+  page:
+    size: us-letter
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 79, 144)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: New Computer Modern
+    font_size: 7.5pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
 locale:
   language: en
   phone_number_format: national
